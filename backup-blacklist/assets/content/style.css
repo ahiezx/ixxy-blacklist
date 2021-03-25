@@ -1,0 +1,50 @@
+@font-face { font-family: 'thin'; font-weight: bold; src: url('/control/data/thin.ttf') format('truetype'); } 
+* {
+	transition: 0.3s ease;
+	font-family: 'thin';
+	padding: 0;
+	margin: 0;
+	transition: 0.5s ease;
+}
+.searching {
+	width: 50%;
+	max-width: 50%;
+	min-width: 50%;
+}
+
+.admin-button {
+	background-color: #fff;
+}
+.appealform {
+	max-width: 50%;min-width: 50%;width: 50%;
+}
+.search_result {
+	list-style: none;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 35px;
+	background-color: rgba(0,0,0,0.5);
+}
+.search_result a {
+	width: 5px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;	
+	text-decoration: none;
+}
+.account-type {
+	vertical-align: middle;
+	padding-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+.searching {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+}
+.appealform {
+	max-width: 100%;min-width: 100%;width: 100%;
+}
+}
